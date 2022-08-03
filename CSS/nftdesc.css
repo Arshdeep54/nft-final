@@ -73,7 +73,7 @@ html{
     align-items: center;
     /* justify-content: space-evenly; */
 }
-.descBox { height: 100%; }
+.descBox { height: 100%;  width: 50%;}
 .textPart{
     flex-basis: 45%;
     height: 100%;
