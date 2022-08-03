@@ -8,6 +8,12 @@ const newTextDelay = 2000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
+function  buyButn(btn){
+  let string=btn.parentNode.parentNode.parentNode.parentNode.childNode[0].src
+  localStorage.setItem("hey",string)
+  
+}
+
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
